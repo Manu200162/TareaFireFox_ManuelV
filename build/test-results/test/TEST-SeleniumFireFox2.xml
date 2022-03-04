@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SeleniumFireFox2" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-04T02:22:37" hostname="DESKTOP-2T6TAJ9" time="26.137">
+  <properties/>
+  <testcase name="goToFireFox()" classname="SeleniumFireFox2" time="26.137"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1646360558061	geckodriver	INFO	Listening on 127.0.0.1:64110
+1646360558974	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62519" "-no-remote" "-profile" "C:\\Users\\Manuel\\AppData\\Local\\Temp\\rust_mozprofileyxo6BW"
+1646360559232	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Manuel\\AppData\\Local\\Temp\\rust_mozprofileyxo6BW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62519/devtools/browser/095c775b-99bc-4463-9436-755abe8e831b
+1646360560892	Marionette	INFO	Listening on port 54897
+1646360561039	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Mar 03, 2022 10:22:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1646360583110	Marionette	INFO	Stopped listening on port 54897
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+]]></system-err>
+</testsuite>
